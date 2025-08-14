@@ -1,0 +1,129 @@
+🔹 Basic-Level Array Problems
+Find the maximum and minimum element in an array -> Done
+
+Reverse an array -> Done
+
+Find the Kth largest/smallest element ->
+
+Check if array is sorted -> Done
+
+Remove duplicates from a sorted array -> Done
+
+Find the missing number in range 1 to N -> Done
+
+Find the second largest element -> Done
+
+Count occurrences of an element -> Done
+
+Move all zeros to the end -> Done
+
+Left rotate an array by 1 or K positions - > Done
+
+🔸 Medium-Level Array Problems
+Kadane's Algorithm – Maximum sum subarray (Contiguous) -> Done
+
+Two Sum – Find a pair with a given sum -> Done
+
+ThreeSum -> Done
+
+Buy and Sell Stocks (once and multiple times) -> Sum
+
+Trapping Rain Water
+
+Majority Element (Boyer-Moore Voting Algorithm)
+
+Longest Consecutive Sequence ->Done
+
+Product of Array Except Self
+
+Merge Two Sorted Arrays
+
+Find Duplicate Element (Floyd's Cycle or Hashing)
+
+Rotate Array by K steps (Cyclic Replacement / Reversal Algo)
+
+🔺 Advanced-Level Array Problems
+Subarray with Given Sum (Positive and Negative Numbers)
+
+Sliding Window Maximum
+
+Minimum Size Subarray Sum ≥ Target
+
+Find Median of Two Sorted Arrays
+
+Count Inversions in Array (Merge Sort variation)
+
+Maximum XOR of Two Elements in an Array
+
+Maximum Product Subarray
+
+Longest Subarray with 0 Sum -> InProgress
+
+Maximum Length of Equal 0’s and 1’s
+
+Minimum number of swaps to sort
+
+
+
+
+Here’s a categorized list of the most common and interview-relevant problems related to:
+
+✅ Sum problems
+
+✅ Pair problems
+
+✅ Longest subarray problems
+
+These types often appear in coding interviews (Amazon, Google, Flipkart, etc.).
+
+🔢 1. Sum Problems in Array
+Problem Name	Description	Tags
+Two Sum	Find a pair that adds to a target	HashMap, Pair
+3Sum	Find triplets with sum = 0	Sorting, Two Pointers
+4Sum	Find quadruplets with target sum	Sorting, Hashing
+Subarray Sum Equals K	Find number of subarrays with exact sum K	Prefix Sum, HashMap
+Maximum Subarray (Kadane's Algorithm)	Find subarray with max sum	DP, Greedy
+Subarrays with Sum Divisible by K	Count subarrays where sum % k == 0	Prefix Sum, HashMap
+Minimum Size Subarray Sum	Smallest subarray with sum ≥ target	Sliding Window
+Find All Pairs with Given Sum	Return all unique pairs (a, b) where a+b = target	HashMap, Set
+
+👯 2. Pair / Triplet / K-element Problems
+
+Find a Pair with Given Difference	`	a - b
+Find a Pair with Product	a * b = target	HashMap
+Find Pairs with XOR K	Count pairs with XOR = K	Bit Manipulation
+Triplets with Zero Sum	Return all (i, j, k) with arr[i]+arr[j]+arr[k]=0	Sorting, Set
+Triplet Sum in Array	Return true if any triplet sums to X	Brute, Sorting
+Count Pairs with Given Sum in Sorted Array	Variant of 2-pointer	Two-Pointer
+
+📏 3. Longest Subarray Problems
+Longest Subarray with Sum K	Return length of longest subarray with sum = K	Prefix Sum, HashMap => Done
+Longest Subarray with Equal 0s and 1s	Convert 0 to -1 and use prefix sum logic	HashMap => Done
+Longest Subarray with Equal Number of Positive and Negative	Prefix sum variation	HashMap =
+
+Longest Subarray of 1s After Flipping K 0s	At most K flips allowed	Sliding Window=> Done
+Longest Increasing Subarray	Find max length increasing subarray	Sliding Window =>  Done
+Longest Subarray with At Most K Distinct Elements	Sliding Window	HashMap, Window => Done
+Longest Subarray with All Unique Elements	Variation of longest substring without repeating characters	Set, Sliding Window => Done
+Maximum	Find max in every window of size k Sliding Window => Done (But still need to digest the solution using the deque)
+Max Sum Subarray of Size K	Sliding Window variant = > Done
+
+
+
+🔄 Bonus: Prefix Sum / Sliding Window-Based Problems
+Problem	Description
+Prefix Sum Array	Store sum till index i: prefix[i] = prefix[i-1] + arr[i]
+Count Subarrays with Average > X	Combine prefix + sliding window
+
+
+
+
+🧠 Tip:
+For exact sum: Try prefix sum + hashmap
+
+For maximum/minimum length: Try sliding window
+
+For subarray count: Try prefix + hashmap
+
+For unique elements: Use Set or HashMap with sliding window
+
