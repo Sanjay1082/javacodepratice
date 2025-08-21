@@ -39,7 +39,6 @@ public class GroupAnagram {
         }
 
         int[] fre = new int[26];
-        ArrayList<String> group = new ArrayList<>();
 
         for(int i = 0; i < str1.length(); i++){
             fre[str1.charAt(i) - 'a'] =  fre[str1.charAt(i) - 'a'] + 1;
