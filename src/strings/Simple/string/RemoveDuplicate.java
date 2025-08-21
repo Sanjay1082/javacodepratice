@@ -5,14 +5,13 @@ import java.util.Set;
 
 public class RemoveDuplicate {
 
-    public static String removeDuplicates(String word){
+    public static void removeDuplicates(String word){
         Set<Character> uqnique = new HashSet<>();
 
         for(char ch : word.toCharArray()){
             uqnique.add(ch);
         }
         System.out.println(new String(uqnique.toString()));
-        return new String(uqnique.toString());
     }
 
 

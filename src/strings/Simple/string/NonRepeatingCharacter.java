@@ -38,7 +38,7 @@ public class NonRepeatingCharacter {
     }
 
     public static void main(String[] args) {
-        nonReaptingChar("Sanjay");
+//        nonReaptingChar("Sanjay");
         firstNonRepeatingChar("aaaabbbbcccdddefffn");
     }
 }

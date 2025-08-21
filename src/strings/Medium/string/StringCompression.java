@@ -16,6 +16,7 @@ public class StringCompression {
             if(freq[fre]!=0) {
                 char ch1 = (char) (fre + 'a');
                 sb.append(ch1).append(freq[fre]);
+//                sb.append(freq[fre]).append((char) (fre + 'a'));
             }
         }
         System.out.print(sb.toString());

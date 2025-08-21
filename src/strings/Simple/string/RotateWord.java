@@ -22,7 +22,7 @@ public class RotateWord {
     }
 
     public static String rightRotateWord(String word, int rotate) {
-        //Left rotate
+        //Right rotate
         char[] ch = word.toCharArray();
         reverseWord(ch, 0, ch.length - 1);
         reverseWord(ch, 0, rotate - 1);

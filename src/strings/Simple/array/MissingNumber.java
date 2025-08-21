@@ -6,7 +6,7 @@ public class MissingNumber {
 
         for(int index = 0; index < arr.length-1; index++){
 
-            if(!(arr[index+1] - arr[index] == 1)){
+            if(arr[index+1] - arr[index] != 1){
                 return arr[index]+1;
             }
         }
